@@ -14,6 +14,10 @@
 		B516E5EF265AC02700958169 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B516E5ED265AC02700958169 /* Main.xcdatamodeld */; };
 		B516E5F2265AC2EB00958169 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516E5F1265AC2EB00958169 /* DataController.swift */; };
 		B516E5F8265ACC7500958169 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B516E5F7265ACC7500958169 /* CloudKit.framework */; };
+		B516E5FF265C071700958169 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516E5FE265C071700958169 /* HomeView.swift */; };
+		B516E602265C089900958169 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516E601265C089900958169 /* ProjectsView.swift */; };
+		B525557A266155C300E24723 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5255579266155C300E24723 /* Item-CoreDataHelpers.swift */; };
+		B525557E2661570D00E24723 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525557D2661570D00E24723 /* Project-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		B516E5F1265AC2EB00958169 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		B516E5F4265ACB1C00958169 /* MyDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyDemoApp.entitlements; sourceTree = "<group>"; };
 		B516E5F7265ACC7500958169 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B516E5FE265C071700958169 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B516E601265C089900958169 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		B5255579266155C300E24723 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		B525557D2661570D00E24723 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 			children = (
 				B516E5F4265ACB1C00958169 /* MyDemoApp.entitlements */,
 				B516E5DD265ABD3E00958169 /* MyDemoAppApp.swift */,
+				B516E5FE265C071700958169 /* HomeView.swift */,
+				B516E601265C089900958169 /* ProjectsView.swift */,
+				B5255579266155C300E24723 /* Item-CoreDataHelpers.swift */,
+				B525557D2661570D00E24723 /* Project-CoreDataHelpers.swift */,
 				B516E5DF265ABD3E00958169 /* ContentView.swift */,
 				B516E5ED265AC02700958169 /* Main.xcdatamodeld */,
 				B516E5F1265AC2EB00958169 /* DataController.swift */,
@@ -158,10 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B516E602265C089900958169 /* ProjectsView.swift in Sources */,
 				B516E5EF265AC02700958169 /* Main.xcdatamodeld in Sources */,
+				B525557E2661570D00E24723 /* Project-CoreDataHelpers.swift in Sources */,
 				B516E5F2265AC2EB00958169 /* DataController.swift in Sources */,
 				B516E5E0265ABD3E00958169 /* ContentView.swift in Sources */,
+				B516E5FF265C071700958169 /* HomeView.swift in Sources */,
 				B516E5DE265ABD3E00958169 /* MyDemoAppApp.swift in Sources */,
+				B525557A266155C300E24723 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
