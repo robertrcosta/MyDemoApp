@@ -71,11 +71,11 @@
 			children = (
 				B516E5F4265ACB1C00958169 /* MyDemoApp.entitlements */,
 				B516E5DD265ABD3E00958169 /* MyDemoAppApp.swift */,
+				B516E5DF265ABD3E00958169 /* ContentView.swift */,
 				B516E5FE265C071700958169 /* HomeView.swift */,
 				B516E601265C089900958169 /* ProjectsView.swift */,
 				B5255579266155C300E24723 /* Item-CoreDataHelpers.swift */,
 				B525557D2661570D00E24723 /* Project-CoreDataHelpers.swift */,
-				B516E5DF265ABD3E00958169 /* ContentView.swift */,
 				B516E5ED265AC02700958169 /* Main.xcdatamodeld */,
 				B516E5F1265AC2EB00958169 /* DataController.swift */,
 				B516E5E1265ABD3F00958169 /* Assets.xcassets */,
